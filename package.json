@@ -6,7 +6,7 @@
   "scripts": {
     "start": "cross-env NODE_ENV=development webpack-dev-server --hot",
     "build": "cross-env NODE_ENV=production webpack",
-    "test": "jest --watchAll --coverage"
+    "test": "jest --coverage"
   },
   "jest": {
     "testEnvironment": "jsdom",
@@ -31,8 +31,6 @@
       "jsx"
     ]
   },
-  "repository": "https://github.com/HashemKhalifa/webpack-react-boilerplate",
-  "author": "HashemKhalifa",
   "license": "ISC",
   "private": false,
   "engines": {

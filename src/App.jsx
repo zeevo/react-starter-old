@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { hot } from 'react-hot-loader';
-import HelloWorld from './components/hello-world';
+import HelloWorld from './components/HelloWorld';
+import 'style/index';
 
 class App extends Component {
   constructor(props) {
