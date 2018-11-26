@@ -1,9 +1,6 @@
-body {
-    font-family: Helvetica, Arial, sans-serif;
-}
+@import '~bootstrap/scss/bootstrap';
 
 .hello-world {
-    margin-top: 10rem;
-    font-size: 2rem;
+    margin-top: 5rem;
     text-align: center;
 }

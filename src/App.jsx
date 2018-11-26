@@ -10,7 +10,11 @@ class App extends Component {
   }
 
   render() {
-    return <HelloWorld title="gd" />;
+    return (
+      <div className="container">
+        <HelloWorld title="Hello World" />
+      </div>
+    );
   }
 }
 
